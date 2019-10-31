@@ -305,7 +305,7 @@
     _values = {{data|safe}}
     // Build the chart
     // Build the chart
-Highcharts.chart('container', {
+Highcharts.chart('piechart', {
     chart: {
         plotBackgroundColor: null,
         plotBorderWidth: null,
@@ -329,7 +329,7 @@ Highcharts.chart('container', {
         }
     },
     series: [{
-        name: 'Brands',
+        name: 'Sales',
         colorByPoint: true,
         data: _values
     }]
